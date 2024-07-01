@@ -1,4 +1,7 @@
 {
-    "presets": ["module:metro-react-native-babel-preset"]
-  }
-  
+  "presets": ["module:metro-react-native-babel-preset"],
+  "plugins": [
+    // other plugins...
+    "@babel/plugin-transform-react-jsx"
+  ]
+}
